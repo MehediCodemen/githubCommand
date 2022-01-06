@@ -9,3 +9,8 @@ git status
   468  git checkout NOTICE-004-CMS-Implement-Create-on-frontend
   469  git rebase main
   470  git push origin NOTICE-004-CMS-Implement-Create-on-frontend
+  
+  10238  git remote set-url origin git@github.com:mainul-codemen/office-management-system.git
+  10239  git remote set-url upstream git@github.com:codemenorg/office-management-system.git
+  10240  gst
+  10241  git remote -v
