@@ -1,0 +1,11 @@
+git status
+  461  git add .
+  462  git status
+  463  git commit
+  464  git log
+  465  git checkout main
+  466  git pull upstream main
+  467  git checkout 
+  468  git checkout NOTICE-004-CMS-Implement-Create-on-frontend
+  469  git rebase main
+  470  git push origin NOTICE-004-CMS-Implement-Create-on-frontend
