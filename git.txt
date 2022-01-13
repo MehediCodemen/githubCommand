@@ -16,3 +16,51 @@ git status
   10239  git remote set-url upstream git@github.com:codemenorg/office-management-system.git
   10240  gst
   10241  git remote -v
+
+
+First Clone it :
+	git clone https://github.com/your-username/projectname
+Create a new branch:
+	git checkout -b branch_name
+Do Your work and push :
+	git status
+	
+	git add .
+	
+	git commit
+
+	git checkout main // go back to your origin main
+	
+	git pull upstream main // pull all changes from upstream because there can be new changes in the upstream
+	
+	git checkout branch_name // go back to your branch
+	
+	git rebase main // and add all changes in your current branch. Now your branch is Updated.
+	
+	git push origin branch_name // push your origin branch 
+Create pull request (PR)
+
+Follow same procedure for all ticket.
+
+Create one commit for every ticket.
+
+Supporse you commit in ticket . but you change files in this ticket again then you can push changes in a commit without creating a new commit.
+
+	git add .
+	
+	git commit --amend
+	
+	git checkout main
+	
+	git pull upstream main
+	
+	git checkout branch_name
+	
+	git rebase main
+
+	git push origin branch_name
+If Conflict Happped:then resolve confict and run these cmd
+   git add .
+   git commit --amend //Ctrl+o hit enter & Ctrl+x hit enter
+   git rebase --continue
+   git push origin your_brnch
