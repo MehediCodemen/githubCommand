@@ -64,3 +64,13 @@ If Conflict Happped:then resolve confict and run these cmd
    git commit --amend //Ctrl+o hit enter & Ctrl+x hit enter
    git rebase --continue
    git push origin your_brnch
+   
+   
+   
+   
+   sudo service mysql stop
+  446  sudo /etc/init.d/apache2 stop
+  447  sudo /opt/lampp/lampp start
+  448  sudo /opt/lampp/lampp stop
+  449  sudo /opt/lampp/lampp start
+
